@@ -148,6 +148,7 @@ type IOSProps = $ReadOnly<{|
     | 'nameSuffix'
     | 'nickname'
     | 'organizationName'
+    | 'oneTimeCode'
     | 'postalCode'
     | 'streetAddressLine1'
     | 'streetAddressLine2'
@@ -770,6 +771,7 @@ const TextInput = createReactClass({
       'nameSuffix',
       'nickname',
       'organizationName',
+      'oneTimeCode',
       'postalCode',
       'streetAddressLine1',
       'streetAddressLine2',
